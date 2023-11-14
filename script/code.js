@@ -22,10 +22,10 @@ switch (true) {
     break;
     case (50 <= marks):
         alert("Passed!")
-        console.log("Passed");
+        console.log("Passed!");
     break;
     default:
         alert("FAILED!!!")
-        console.log("Failed");
+        console.log("FAILED!!!");
     break;
 }
