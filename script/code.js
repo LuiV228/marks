@@ -3,7 +3,7 @@ let btnSubmit = document.querySelector('[data-submit]')
 function displayMarks() {
     let marks = +document.querySelector('[data-marks]').value
     // Label's reference
-    let output = +document.querySelector('[data-output]');
+    let output = document.querySelector('[data-output]');
     // switch
     switch (true) {
         case marks < 50:
